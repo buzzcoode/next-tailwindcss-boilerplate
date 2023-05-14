@@ -1,34 +1,36 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# How to start the Boilerplate
 
-## Getting Started
+This project was started with [Next.js](https://nextjs.org/)
 
-First, run the development server:
+## Install the dependencies
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+To install all dependencies run `pnpm install or pnpm i` at the root
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Run the project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+`pnpm run dev` will open on localhost:3000 on your browser
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Core dependencies
 
-## Learn More
+- Typescript - Type checking. Learn more at [TS website](https://typescriptlang.org/).
+- Airbnb Style Eslint & Prettier - Readability. Learn more at [Eslint website](https://eslint.org/) and [Prettier website](https://prettier.io/)
+- Husky & Lint-staged - Git Hooks. Learn more at [Husky website](https://typicode.github.io) and [Lint-staged Documentation](https://github.com/okonet/lint-staged)
+- Tailwindcss - CSS. Learn more at [TCSS website](https://tailwindcss.com/)
 
-To learn more about Next.js, take a look at the following resources:
+## How to make a commmit
+ To make a commit must be used a following rule:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+ `git commit -m "*type*: commit-message"`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ - Where type is: [`build`, `chore`, `ci`, `docs`, `feat`, `fix`, `perf`, `refactor`, `revert`, `style`, `test`]
+ - And commit-message must be written in lower-case.
 
-## Deploy on Vercel
+ ## How to contribute
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+ - Fetch/pull the Develop Branch
+ - Create a Branch based on your issue name
+  - e.g - Branch name is task/bw-(number)
+  - e.g - Branch name is bug/bw-(number)
+- Once done push your branch to origin and submit a PR to the Develop branch for review 😘
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## All Rights Reserved for Fernando dos Santos.
